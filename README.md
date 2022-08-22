@@ -1,4 +1,4 @@
-//This going to be a protocol like AAVE
+//Functions of the scripts
 
 1. Deposit collateral: ETH/WETH
 2. Borrow another asset: DAI
