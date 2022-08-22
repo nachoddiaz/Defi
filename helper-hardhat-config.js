@@ -8,14 +8,22 @@ const networkConfig = {
     },
     // Price Feed Address, values can be obtained at https://docs.chain.link/docs/reference-contracts
     // Default one is ETH/USD contract on Kovan
-    42: {
+   /*  42: { No podemos desplegar en Kovan porque Alchemy no da soporte
         name: "kovan",
         ethUsdPriceFeed: "0x9326BFA02ADD2366b30bacB125260Af641031331",
         wethToken: "0xd0a1e359811322d97991e03f863a0c30c2cf029c",
         lendingPoolAddressesProvider: "0x88757f2f99175387aB4C6a4b3067c77A695b0349",
         daiEthPriceFeed: "0x22B58f1EbEDfCA50feF632bD73368b2FdA96D541",
         daiToken: "0xFf795577d9AC8bD7D90Ee22b6C1703490b6512FD"
-    }
+    }, */
+    /* 4: { // No hay soporte para rinkeby
+        name: "rinkeby",
+        ethUsdPriceFeed: "0x9326BFA02ADD2366b30bacB125260Af641031331",
+        wethToken: "0xd0a1e359811322d97991e03f863a0c30c2cf029c",
+        lendingPoolAddressesProvider: "0x88757f2f99175387aB4C6a4b3067c77A695b0349",
+        daiEthPriceFeed: "0x22B58f1EbEDfCA50feF632bD73368b2FdA96D541",
+        daiToken: "0xFf795577d9AC8bD7D90Ee22b6C1703490b6512FD"
+    } */
 }
 
 const developmentChains = ["hardhat", "localhost"]
